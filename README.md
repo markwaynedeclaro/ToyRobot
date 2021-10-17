@@ -1,4 +1,4 @@
-# ToyRobot
+# Toy Robot
 
 
 The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. There are no other obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table must be prevented, however further valid movement commands must still be allowed.
@@ -60,6 +60,12 @@ Output:  **3,3,NORTH**
 ## MVN Run Configuration 
   
 *mvn spring-boot:run
+
+Make sure to do the following first before triggering unit tests:
+- This application uses Spring Profiling feature. Make sure that the value of ****spring.profiles.active**** is **dev** when running the application.
+- In file **ToyRobotApplication.java**, uncomment line #28 (robotJob.startRobotController();)
+
+
   
   
 ## Running Unit Test 
