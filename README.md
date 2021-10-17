@@ -66,7 +66,7 @@ Make sure to do the following first before triggering unit tests:
 - In file **ToyRobotApplication.java**, uncomment line #28 (robotJob.startRobotController();)
 
 This provides the user a menu like console. Choose the number on the options that you want to perform.
-
+![image](https://user-images.githubusercontent.com/39042426/137615378-80c8c5bf-aadf-4833-98f1-347f9e8febe5.png)
   
   
 ## Running Unit Test 
