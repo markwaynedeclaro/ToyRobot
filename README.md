@@ -59,12 +59,13 @@ Output:  **3,3,NORTH**
 
 ## MVN Run Configuration 
   
-*mvn spring-boot:run
+*mvn spring-boot:run*
 
 Make sure to do the following first before triggering unit tests:
 - This application uses Spring Profiling feature. Make sure that the value of ****spring.profiles.active**** is **dev** when running the application.
 - In file **ToyRobotApplication.java**, uncomment line #28 (robotJob.startRobotController();)
 
+This provides the user a menu like console. Choose the number on the options that you want to perform.
 
   
   
